@@ -1,3 +1,6 @@
+1. Pinning (Size aka height and width are not fixed) (Aspect ratio might not be maintained
+2. Fix Height and Width and Aligment(X, Y)
+
 Calculator
 1. create three buttons <br>
 2. embed in horizontal stk view
