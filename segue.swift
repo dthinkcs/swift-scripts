@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         if segue.identifier == "goToSecondScreen" {
             let destinationVC = segue.destination as! SecondViewController
             destinationVC.textPassedOver = textField.text! // forced unwrap
-            // destinationVC.label.text = self.label.text ERROR OF NIL
+            // destinationVC.label.text = self.textField.text! ERROR OF NIL Thread 1: Fatal error: Unexpectedly found nil while implicitly unwrapping an Optional value
         }
     }
     
