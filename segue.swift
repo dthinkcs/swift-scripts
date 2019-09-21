@@ -26,6 +26,7 @@ class ViewController: UIViewController {
         if segue.identifier == "goToSecondScreen" {
             let destinationVC = segue.destination as! SecondViewController
             destinationVC.textPassedOver = textField.text! // forced unwrap
+            // destinationVC.label.text = self.label.text ERROR OF NIL
         }
     }
     
